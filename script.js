@@ -113,11 +113,11 @@ var displayWeather = function(weeklyForecast) {
         formatDate = new Date(forecastDate * 1000).toLocaleDateString("en-US");
         //pulls of 5 day forecast
         var forecastCol = document.createElement('div');
-        forecastCol.classLi = 'col s2 forecast ';
+        forecastCol.classLi = 'card ';
         var forecastCard = document.createElement('div');
-        forecastCard.classLi = 'card  blue-grey darken-1';
+        forecastCard.classLi = 'card';
         var forecastContent = document.createElement('div');
-        forecastContent.classLi = 'card-content white-text'
+        forecastContent.classLi = 'card'
         var forecastDate = document.createElement('p');
         forecastDate.innerHTML = formatDate;
         var forecastIcon = document.createElement('p');
