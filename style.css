@@ -61,7 +61,24 @@ main {
    
   }
   
- 
+  .uv-fav {
+    background: green;
+    border-radius: 5px;
+}
+
+.uv-mod {
+    background: yellow;
+    border-radius: 5px;
+}
+
+.uv-sev {
+    background: red;
+    border-radius: 5px;
+}
+.weather_cards {
+  width: 100vw;
+  max-width: 100vw;
+}
  
 
 
